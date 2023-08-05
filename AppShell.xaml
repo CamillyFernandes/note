@@ -12,9 +12,13 @@
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+         
         <ShellContent
             Title="About"
-            ContentTemplate="{DataTemplate local:sobre}"
+            ContentTemplate="{DataTemplate local:Sobre}"
             Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
+        
+        
+
     </TabBar>
 </Shell>

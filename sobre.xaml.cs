@@ -1,11 +1,12 @@
 namespace note;
 
-public partial class sobre : ContentPage
+public partial class Sobre : ContentPage
 {
-	public sobre()
+	public Sobre()
 	{
 		InitializeComponent();
 	}
+
     private async void LearnMore_Clicked(object sender, EventArgs e)
     {
         // Navigate to the specified URL in the system browser.
